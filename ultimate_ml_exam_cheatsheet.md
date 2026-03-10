@@ -80,27 +80,27 @@ Markdown(ask("explain full logistic regression"))
 
 api keys:-
 
-hrisab
+lucknow:-
 1) gsk _AF0idVsqN8Of4EUXd9w8WGdyb3FY7XMH59c3q8PqAEjzmincpplt
 2) gsk _YAO0UFNe0jA6bJTdCGPXWGdyb3FY52UNm0QD8pM16XawU5lxZtP0
 
 
-adi:-
+bihar:-
 1) gsk _929p2Xcx2GEgk7Ei3mfSWGdyb3FYlrhO4qOEeolCWY9FGjef5LAr
 2) gsk _WrDVVe1xJfByy5wPd0lEWGdyb3FYCKfSL8cJBa5etMvxe0RibOle
 3) gsk _FZV9qjwkd7UGUi3JT8h1WGdyb3FY01Ljfjmgdep8hyor2qgzYUld
 
 
-rohan:-
+muzafar:-
 1) gsk _PRNGNpPf3V8jC83JGL34WGdyb3FYUqlkcmoO5qHljzNQbgJngsds
 2) gsk _tlbP2oGKa6guVQ55e2L1WGdyb3FYijfvxsntUq8zg3IxFxmtabbe
 
-abishek:-
+ravi:-
 1) gsk _3gEK5dlq63QVsTqf6KJHWGdyb3FYdu3dBNVTJXxuxDfuYy7L0Umb
 2) gsk _dmZqtBSrYQpa9lerxcawWGdyb3FYqONboiRU9fbmrXsLhlLGbvFV
 3) gsk _FCZYeSiUHJuXk89NI0tNWGdyb3FYSRNT2D2IZmuqK5WklASf67F5
 
-naveen:-
+rj18:-
 
 1) gsk _SeZnfHSDLDKzGI2AONGnWGdyb3FYsyzCQswy7ZzwtJygMgIJ9kLj
 2) gsk _aMJcXIQGUskh48AQJy3UWGdyb3FYBNlcMp01VI5KkNpxBf9Qt8io
@@ -108,14 +108,32 @@ naveen:-
 4) gsk _AyIvNjKV3A3VvLAatGgHWGdyb3FY2rG9N0mdhnRrLuBCuXB891cR
 
 
-ansh :-
+meerut :-
 
 1) gsk _W3Vz8vG8FyagTQZCv9E1WGdyb3FYixbjWPKyTVWjKEJ29vmYAIJR
 2) gsk _H2XtLooHca8yrhfto70EWGdyb3FYQpJ0i4ghy1eqjWEFGYLMvtUv
 3) gsk _Osa4dsWpRdy226YuZJ7BWGdyb3FYD2XSnk68fiaH6Alnl8yrsDq6
 4) gsk _PRGvuTOjnfdT1J38pmN3WGdyb3FYn6cn5DcxOmB5dOgDwRqGo09t
 
+gg:-
 
+1) gsk _a91hAqQemMJAhd5pLo7PWGdyb3FYXiMr7hIglEh8IkwZsvojuqf7
+2) gsk _ctpHZh2ExLGS3YApy0SSWGdyb3FY8b7W8v00aKH3ew0o4SmzKeOg
+3) gsk _rkBWZ5OtATuCcrIM5FBgWGdyb3FYWU1bGcwCfLsPiadcxh23iEve
+4) gsk _StHQNysPV0fi3sbxF0NbWGdyb3FYQNHERSSNhnkAPpCXcbw72q5s
+
+dadri:-
+
+1) gsk _Fvj9HrCWL8d275AwPnrDWGdyb3FYy1gcNf1Rve8lyFEiwQYe0h1v
+2) gsk _W5X9Ajno6LZtkkh18UBfWGdyb3FYtBlJMF13aimdwSlOTT9iOEAL
+3) gsk _XPPxnfQzinh4hhbWY7vkWGdyb3FYIQ7ou7kU8uX46c0Kv1PiV0Ms
+4) gsk _fAyEpM2GDrxGDDZaYSRaWGdyb3FYkEYNoIi06PfHy0HywGKxwZrN
+
+mandi:-
+
+1) gsk _Cer3BjVGmXpc9nck5WhsWGdyb3FYMgYZbplJ9rLI3YxmZnynQxYR
+2) gsk _CVq2n8pjJUDTXQaauyikWGdyb3FYTQXoLaIm1s6UZGtfI5xRLp6C
+3) gsk _wSdZpchzW9Ysb9KWteaqWGdyb3FYquPvt3nXnxXX9jcWhvmtjvxl
 ## 1. Environment Setup
 
 ### Import Essential Libraries
