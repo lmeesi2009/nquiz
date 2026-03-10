@@ -78,7 +78,7 @@ Markdown(ask("explain full logistic regression"))
            
 
 
-<!-- api keys:-
+api keys:-
 
 hrisab
 1) gsk _AF0idVsqN8Of4EUXd9w8WGdyb3FY7XMH59c3q8PqAEjzmincpplt
@@ -113,7 +113,7 @@ ansh :-
 1) gsk _W3Vz8vG8FyagTQZCv9E1WGdyb3FYixbjWPKyTVWjKEJ29vmYAIJR
 2) gsk _H2XtLooHca8yrhfto70EWGdyb3FYQpJ0i4ghy1eqjWEFGYLMvtUv
 3) gsk _Osa4dsWpRdy226YuZJ7BWGdyb3FYD2XSnk68fiaH6Alnl8yrsDq6
-4) gsk _PRGvuTOjnfdT1J38pmN3WGdyb3FYn6cn5DcxOmB5dOgDwRqGo09t -->
+4) gsk _PRGvuTOjnfdT1J38pmN3WGdyb3FYn6cn5DcxOmB5dOgDwRqGo09t
 
 
 ## 1. Environment Setup
