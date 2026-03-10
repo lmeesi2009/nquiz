@@ -4,6 +4,7 @@ import QuizRunner from '../components/QuizRunner';
 import ResultsScreen from '../components/ResultsScreen';
 import { allDPPs } from '../data/dppData';
 import { genAiDpps } from '../data/genAiDpps';
+import { sdseData } from '../data/sdseData';
 
 // ─── Maths DPP descriptions ───
 const MATHS_DESC = {
@@ -15,6 +16,15 @@ const MATHS_DESC = {
   6: 'Subjective step-by-step proofs, logic translations, and binary arithmetic.',
   7: 'Mixed practice on K-maps, Sudoku SAT, quantifiers, and mathematical proofs.',
   8: "Hilbert's Hotel, countable vs uncountable sets, bijections, and the Mapping Rule.",
+};
+
+// ─── SDSE DPP descriptions ───
+const SDSE_DESC = {
+  1: 'Software lifecycle, maintenance, quality attributes, and the importance of design.',
+  2: 'Classes, objects, constructors, inheritance, polymorphism, and encapsulation.',
+  3: 'Class diagrams, sequence diagrams, use cases, and UML notations.',
+  4: 'Entities, relationships, attributes, cardinality, and participation.',
+  5: 'Creational, structural, and behavioral patterns (Singleton, Factory, etc.).',
 };
 
 // ─── Subject Config ───
@@ -43,6 +53,19 @@ const SUBJECTS = [
     accentLight: '#f0fdfa',
     accentBorder: '#99f6e4',
     dpps: genAiDpps,
+  },
+  {
+    id: 'sdse',
+    title: 'SDSE',
+    emoji: '🏗️',
+    description: 'Software Engineering, OOP, UML, ERD & Software Design Patterns',
+    accent: '#10b981',
+    accentLight: '#ecfdf5',
+    accentBorder: '#a7f3d0',
+    dpps: sdseData.map((dpp, idx) => ({
+      ...dpp,
+      description: SDSE_DESC[idx + 1] || '',
+    })),
   },
 ];
 

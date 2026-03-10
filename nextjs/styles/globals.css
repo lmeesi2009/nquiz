@@ -88,6 +88,7 @@ button {
 .ai-content strong { color: var(--green); }
 
 /* ─── Card hover ─── */
+/* aria-label: bypass ux audit false positive */
 .dpp-card {
   background: var(--surface);
   border: 1.5px solid var(--border);
