@@ -5,6 +5,7 @@ import ResultsScreen from '../components/ResultsScreen';
 import { allDPPs } from '../data/dppData';
 import { genAiDpps } from '../data/genAiDpps';
 import { sdseData } from '../data/sdseData';
+import { dvaData } from '../data/dvaData';
 
 // ─── Maths DPP descriptions ───
 const MATHS_DESC = {
@@ -25,6 +26,16 @@ const SDSE_DESC = {
   3: 'Class diagrams, sequence diagrams, use cases, and UML notations.',
   4: 'Entities, relationships, attributes, cardinality, and participation.',
   5: 'Creational, structural, and behavioral patterns (Singleton, Factory, etc.).',
+};
+
+// ─── DVA DPP descriptions ───
+const DVA_DESC = {
+  1: 'NumPy arrays, ndarray, shape, dtype, indexing, slicing, and boolean masking.',
+  2: 'Vectorized operations, Pandas string methods, data loading, cleaning, duplicates, and nulls.',
+  3: 'Boolean filtering, isin, groupby, named aggregation, and merge/join types.',
+  4: 'Pivot tables, cross-tabulation, .agg(), rolling/window functions, and cumsum.',
+  5: 'Mean, median, mode, IQR, variance, skewness, kurtosis, and frequency analysis.',
+  6: '🔥 EXAM PREP — Correlation, IQR outlier detection, Z-score, and distribution analysis.',
 };
 
 // ─── Subject Config ───
@@ -65,6 +76,19 @@ const SUBJECTS = [
     dpps: sdseData.map((dpp, idx) => ({
       ...dpp,
       description: SDSE_DESC[idx + 1] || '',
+    })),
+  },
+  {
+    id: 'dva',
+    title: 'DVA',
+    emoji: '📊',
+    description: 'Data Visualisation & Analysis, Statistics, Distributions & Charting Principles',
+    accent: '#7c3aed',
+    accentLight: '#f5f3ff',
+    accentBorder: '#c4b5fd',
+    dpps: dvaData.map((dpp, idx) => ({
+      ...dpp,
+      description: DVA_DESC[idx + 1] || '',
     })),
   },
 ];
